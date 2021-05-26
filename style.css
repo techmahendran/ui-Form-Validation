@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: serif;
+  background-color: rgb(192, 36, 36);
+}
+label {
+  font-size: 1.5rem;
+  /* margin-left: 0; */
+  color: rgb(0, 132, 255);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+span {
+  color: rgb(0, 255, 157);
+}
+form {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  margin-left: 30rem;
+}
+
+.name {
+  padding: 0.5rem;
+  height: 2rem;
+  width: 40%;
+}
+.lname {
+  padding: 0.5rem;
+  height: 2rem;
+  width: 40%;
+}
+.einput {
+  padding: 0.5rem;
+  height: 2rem;
+  width: 40%;
+}
+#btn {
+  background-color: rgb(119, 0, 255);
+  color: chartreuse;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+#add {
+  font-size: 1.5rem;
+  color: rgb(0, 132, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#add p {
+  margin: 0;
+}
+.box {
+  border: 1px solid red;
+}
+.error {
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 35%;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  form {
+    margin-left: 7rem;
+  }
+  .name {
+    width: 55%;
+  }
+  .lname {
+    width: 55%;
+  }
+  .einput {
+    width: 55%;
+  }
+  #btn {
+    margin-left: 5rem;
+  }
+  .error {
+    width: 55%;
+  }
+}
